@@ -269,6 +269,7 @@ section .title::after{
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
+    height: 350px;
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -289,6 +290,10 @@ section .title::after{
     font-size: 50px;
     color: crimson;
     transition: color 0.3s ease;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -ms-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
     color: #fff;
